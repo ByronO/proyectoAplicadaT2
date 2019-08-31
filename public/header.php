@@ -1,52 +1,33 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
+
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Proyecto Lenguajes</title>
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="public/css/estilos.css"/>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>PC MANIA CR</title>
 
-    <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <script type="text/javascript" src="public/js/jquery-3.3.1.js"></script>
-    <script type="text/javascript" src="public/js/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="public/css/tabla1.css">
-    <script type="text/javascript" charset="utf8" src="public/js/table.js"></script>
+    <!-- Custom styles for this template -->
+    <link href="public/css/business-frontpage.css" rel="stylesheet">
 
 </head>
 
-<body id="paginaPrincipal" data-spy="scroll" data-target=".navbar" data-offset="60">
-<div class="contenedor">
-
-
-    <div id="inicio" class="row jumbotron text-center">
-        <div class="col-sm-2">
-        </div>
-        <div class="col-sm-3">
-            <img id="Logo" alt="Logo" src="public/imgs/tienda.png"
-                                   width="400" height="400"></div>
-        <div class="col-sm-7">
-            <h2 id="titulo">Compra en linea</h2>
-            <h2>
-                <br><br><br>
-                Encuentra los mejores productos en la comodidad de tu casa
-            </h2>
-
+<header class="bg-primary py-5 mb-5" style="background-color: red !important;">
+    <div class="container h-100" >
+        <div class="row h-100 align-items-center">
+            <div class="col-lg-12">
+                <h1 class="display-4 text-white mt-5 mb-2">Las mejores PC's de escritorio del mercado!</h1>
+                <p style="color: white !important;" class="lead mb-5 text-white-50">Te ofrecemos PC's para todos los fines y con componentes de las mejores marcas, tanto para gaming
+                    como para trabajo, con las mejores garantías y precios del mercado.</p>
+            </div>
         </div>
     </div>
+</header>
 
-    <div id="principal" class="container-fluid">
+<body>

@@ -101,7 +101,7 @@ class ProductController
         session_start();
         $url = 'http://192.168.1.3:64445/api/values/GetCode';
 
-        $params = array('id' => 1,'name' => 'Audio World', 'address' => 'San José' );
+        $params = array('id' => 2,'name' => 'PC MANIA CR', 'address' => 'Heredia' );
         $content = json_encode($params);
         $header = array(
             "Content-Type: application/json",

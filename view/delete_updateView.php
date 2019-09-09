@@ -25,7 +25,7 @@
 include_once 'public/navbar.php';
 
 ?>
-    <CENTER>
+<CENTER>
     <h2 style="margin-bottom: 30px; margin-top: 30px">Gestionar artículos</h2>
 
     <div class="contenedor">
@@ -69,7 +69,7 @@ include_once 'public/navbar.php';
                                                        $('#<?php echo $articulos[0].$articulos[0] ?>').val(),$('#<?php echo $articulos[0].$articulos[0].$articulos[0] ?>').val());return false;">
 
                                     <td><input type="button" class="btn btn-danger" value="Eliminar articulo"
-                                               onclick="deleteProduct(<?php echo $articulos[0] ?>);return false;">
+                                               onclick="deleteProduct(<?php echo $articulos[0] ?>, $('#<?php echo $articulos[0] ?>').val());return false;">
 
                                 </form>
                             </tr>
@@ -82,7 +82,7 @@ include_once 'public/navbar.php';
             </div>
         </div>
     </div>
-    </CENTER>
+</CENTER>
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
